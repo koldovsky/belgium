@@ -1,0 +1,228 @@
+
+html{
+   background-color:white;
+    
+}
+
+html, body{
+    height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+   
+}
+#belgium{
+    background-image: url(../pictures/belcolors.jpg); 
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    font-family: 'Barrio', cursive;
+    text-align: center;
+    font-size: 6em;
+}
+
+h2{
+    font-family: 'Barrio', cursive;
+    text-align: center;
+    font-size: 2em;
+    color: red;
+}
+
+header{
+    height: 400 px;
+}
+
+#main {
+    text-align: left;
+    font-size: 16em;
+    color: red;
+    letter-spacing: -2px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    flex: 2,5;
+}
+
+#be{
+    float: right;
+    width: 400px;
+    height:250px;
+    position: static;
+    margin-top: 3px;
+}
+
+#belgium{
+    height: 500px;
+}
+
+#fries{
+    transform: rotate(50deg);
+}
+
+#beer{
+    transform: rotate(30deg);
+}
+
+#boy{
+    transform: rotate(-50deg);
+}
+
+
+#title   {
+	display: flex;
+	height: 300px;
+    flex-direction: row;
+    justify-content: center;
+}   
+#foto   {
+	display: flex;
+	height: 200px;
+    flex-direction: row;
+    justify-content: center;
+}      
+  
+
+.menu {
+   list-style-type: none;
+
+}
+.menu li {
+    float: right;
+    margin-right: 3px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu li a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #fff90c;
+    color: red;
+    text-decoration: overline;
+    position: relative;
+}
+.menu li a:hover {
+    background: #F0E68C;
+    color: #CD5C5C;
+}   
+
+#map-with-flag{
+    float: right;
+    margin: 0 0 10px 10px;
+}   
+   
+p{
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 25px;
+} 
+   
+#list{
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 25px;
+}   
+    
+#facts{
+    float: left;
+    margin: 0 0 10px 10px;
+}   
+
+#brussel{
+    border-radius: 20%;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#antwerp{
+    float: left;
+    margin: 0 0 10px 10px;
+    border-radius: 20%;
+}
+
+#mechelen{
+    float: right;
+    margin: 0 0 10px 10px;
+    border-radius: 20%;
+}
+
+#ghent{
+    float: left;
+    margin: 0 0 10px 10px;
+    border-radius: 20%;
+}
+
+#LARGEST-CITIES{
+    height: 1700px;
+}
+
+#belgiumm{
+   
+   display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#beer2{
+    float: left;
+    margin: 0 0 10px 10px;
+    border-radius: 20%;
+}
+
+#chocolate{
+    float: right;
+    margin: 0 0 10px 10px;
+    border-radius: 20%;
+}
+
+#traditions{
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 25px;
+   
+}
+#INTERESTING-FACTS{
+ border: 10px solid red;
+    border-radius: 5px; 
+    padding: 15px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 40%;
+  bottom: 60%;
+  left: 40%;
+  right: 60%;
+  height: 20%;
+  width: 20%;
+  opacity: 0;
+  transition: .1s ease;
+  background-color:	red;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-family: 'Miltonian Tattoo', cursive;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
