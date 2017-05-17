@@ -201,26 +201,6 @@ p {
     font-size: 25px;
 }
 
-#INTERESTING-FACTS {
-    height: 1400px;
-}
-
-#FAMOUS-FOOD {
-    height: 1700px;
-}
-
-#ABOUT {
-    height: 1200px;
-}
-
-#CAPITAL {
-    height: 1300px;
-}
-
-#TRADITIONS {
-    height: 700px;
-}
-
 .container {
     position: relative;
     width: 100%;
