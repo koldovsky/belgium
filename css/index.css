@@ -1,37 +1,33 @@
 
-html{
-   background-color:white;
-    
+html {
+    background-color: white;
 }
 
-html, body{
+html, body {
     height: 100%;
     max-width: 1920px;
-    
-   
-   
-}
-#belgium{
-    background-image: url(../pictures/belcolors.jpg); 
-    background-position: top;
-    background-repeat: no-repeat;
-    
 }
 
-h1{
+#belgium {
+    background-image: url(../pictures/belcolors.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+h1 {
     font-family: 'Barrio', cursive;
     text-align: center;
     font-size: 6em;
 }
 
-h2{
+h2 {
     font-family: 'Barrio', cursive;
     text-align: center;
     font-size: 2em;
     color: red;
 }
 
-header{
+header {
     height: 550 px;
 }
 
@@ -44,70 +40,66 @@ header{
     text-transform: uppercase;
     margin: 0;
     flex: 2,5;
-    
 }
 
-#be{
+#be {
     float: right;
     width: 400px;
-    height:250px;
+    height: 250px;
     position: static;
     margin-top: 3px;
 }
 
-#belgium{
+#belgium {
     height: 610px;
 }
 
-#potato1{
+#potato1 {
     transform: rotate(50deg);
     border: solid black;
 }
 
-#images{
+#images {
     border: solid black;
 }
 
-#beer{
+#beer {
     transform: rotate(30deg);
-    
 }
 
-#boy{
+#boy {
     transform: rotate(-50deg);
     border: solid black;
 }
 
-#choco-belge{
+#choco-belge {
     transform: rotate(20deg);
     border: solid black;
 }
 
-#pro-nas-text{
+#pro-nas-text {
     text-align: justify;
-     
 }
 
+#title {
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+}
 
-#title   {
-	display: flex;
-	height: 300px;
-    flex-direction: row;
-    justify-content: center;
-}   
-#foto   {
+#foto {
     position: relative;
-	display: flex;
-	height: 300px;
+    display: flex;
+    height: 300px;
     flex-direction: row;
     justify-content: center;
-}      
-  
+}
 
 .menu {
-   list-style-type: none;
-
+    list-style-type: none;
 }
+
 .menu li {
     float: right;
     margin-right: 20px;
@@ -116,6 +108,7 @@ header{
     font-weight: bold;
     border: solid black;
 }
+
 .menu li a {
     display: inline-block;
     padding: 20px 25px;
@@ -124,150 +117,146 @@ header{
     text-decoration: overline;
     position: relative;
 }
+
 .menu li a:hover {
     background: #F0E68C;
     color: #CD5C5C;
-}   
+}
 
-#map-with-flag{
+#map-with-flag {
     float: right;
     margin: 0 0 10px 10px;
-}   
-   
-p{
+}
+
+p {
     font-family: 'Miltonian Tattoo', cursive;
     font-size: 25px;
-} 
-   
-#list{
+}
+
+#list {
     font-family: 'Miltonian Tattoo', cursive;
     font-size: 25px;
-}   
-    
-#facts{
+}
+
+#facts {
     float: left;
     margin: 0 0 10px 10px;
-}   
+}
 
-#brussel{
+#brussel {
     border-radius: 20%;
     display: block;
     margin: auto;
     width: 50%;
 }
-#bruss{
+
+#bruss {
     border-radius: 10%;
     display: block;
     margin: auto;
-   
 }
 
-#antwerp{
+#antwerp {
     float: left;
     margin: 0 0 10px 10px;
     border-radius: 20%;
 }
 
-#mechelen{
+#mechelen {
     float: right;
     margin: 0 0 10px 10px;
     border-radius: 20%;
 }
 
-#ghent{
+#ghent {
     float: left;
     margin: 0 0 10px 10px;
     border-radius: 20%;
 }
 
-#LARGEST-CITIES{
+#LARGEST-CITIES {
     height: 1700px;
 }
 
-#belgiumm{
-   
-   display: block;
+#belgiumm {
+    display: block;
     margin: auto;
     width: 50%;
 }
 
-#beer2{
+#beer2 {
     float: left;
     margin: 0 0 10px 10px;
     border-radius: 20%;
 }
 
-#chocolate{
+#chocolate {
     float: right;
     margin: 0 0 10px 10px;
     border-radius: 20%;
 }
 
-#traditions{
+#traditions {
     font-family: 'Miltonian Tattoo', cursive;
     font-size: 25px;
-   
 }
-#INTERESTING-FACTS{
+
+#INTERESTING-FACTS {
     height: 1400px;
-     
 }
 
-#FAMOUS-FOOD{
+#FAMOUS-FOOD {
     height: 1700px;
-     
 }
-#ABOUT{
+
+#ABOUT {
     height: 1200px;
-    
 }
 
-#CAPITAL{
+#CAPITAL {
     height: 1300px;
-    
 }
 
-#TRADITIONS{
+#TRADITIONS {
     height: 700px;
-     
 }
 
 .container {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .overlay {
-  position: absolute;
-  top: 40%;
-  bottom: 60%;
-  left: 40%;
-  right: 60%;
-  height: 20%;
-  width: 20%;
-  opacity: 0;
-  transition: .1s ease;
-  background-color:	red;
+    position: absolute;
+    top: 40%;
+    bottom: 60%;
+    left: 40%;
+    right: 60%;
+    height: 20%;
+    width: 20%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: red;
 }
 
 .container:hover .overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .text {
-  font-family: 'Miltonian Tattoo', cursive;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    font-family: 'Miltonian Tattoo', cursive;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
