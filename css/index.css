@@ -7,7 +7,8 @@ html{
 html, body{
     height: 100%;
     max-width: 1920px;
-    margin: 0 auto;
+    
+   
    
 }
 #belgium{
@@ -31,18 +32,19 @@ h2{
 }
 
 header{
-    height: 400 px;
+    height: 550 px;
 }
 
-#main {
+#main1 {
     text-align: left;
     font-size: 16em;
     color: red;
     letter-spacing: -2px;
-    font-weight: 900;
+    font-weight: 800;
     text-transform: uppercase;
     margin: 0;
     flex: 2,5;
+    
 }
 
 #be{
@@ -54,19 +56,36 @@ header{
 }
 
 #belgium{
-    height: 500px;
+    height: 610px;
 }
 
-#fries{
+#potato1{
     transform: rotate(50deg);
+    border: solid black;
+}
+
+#images{
+    border: solid black;
 }
 
 #beer{
     transform: rotate(30deg);
+    
 }
 
 #boy{
     transform: rotate(-50deg);
+    border: solid black;
+}
+
+#choco-belge{
+    transform: rotate(20deg);
+    border: solid black;
+}
+
+#pro-nas-text{
+    text-align: justify;
+     
 }
 
 
@@ -77,8 +96,9 @@ header{
     justify-content: center;
 }   
 #foto   {
+    position: relative;
 	display: flex;
-	height: 200px;
+	height: 300px;
     flex-direction: row;
     justify-content: center;
 }      
@@ -90,14 +110,15 @@ header{
 }
 .menu li {
     float: right;
-    margin-right: 3px;
+    margin-right: 20px;
     font-family: 'Annie Use Your Telescope', cursive;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
+    border: solid black;
 }
 .menu li a {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 20px 25px;
     background: #fff90c;
     color: red;
     text-decoration: overline;
@@ -133,6 +154,12 @@ p{
     display: block;
     margin: auto;
     width: 50%;
+}
+#bruss{
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+   
 }
 
 #antwerp{
@@ -182,9 +209,27 @@ p{
    
 }
 #INTERESTING-FACTS{
- border: 10px solid red;
-    border-radius: 5px; 
-    padding: 15px;
+    height: 1700px;
+     
+}
+
+#FAMOUS-FOOD{
+    height: 1700px;
+     
+}
+#ABOUT{
+    height: 1200px;
+    
+}
+
+#CAPITAL{
+    height: 1300px;
+    
+}
+
+#TRADITIONS{
+    height: 700px;
+     
 }
 
 .container {
