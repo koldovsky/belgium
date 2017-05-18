@@ -6,6 +6,7 @@ html {
 html, body {
     height: 100%;
     max-width: 1920px;
+    margin: 0 auto;
 }
 
 #belgium {
@@ -91,7 +92,7 @@ header {
 #foto {
     position: relative;
     display: flex;
-    height: 300px;
+    height: 250px;
     flex-direction: row;
     justify-content: center;
 }
@@ -140,7 +141,7 @@ p {
 
 #facts {
     float: left;
-    margin: 0 0 10px 10px;
+    margin: 0 10px 10px 10px;
 }
 
 #brussel {
@@ -158,24 +159,49 @@ p {
 
 #antwerp {
     float: left;
-    margin: 0 0 10px 10px;
+    margin: 0 10px 10px 10px;
     border-radius: 20%;
 }
 
 #mechelen {
     float: right;
-    margin: 0 0 10px 10px;
+    margin: 0 10px 10px 10px;
     border-radius: 20%;
 }
 
 #ghent {
     float: left;
-    margin: 0 0 10px 10px;
+    margin: 0 10px 10px 10px;
     border-radius: 20%;
 }
 
-#LARGEST-CITIES {
-    height: 1700px;
+#brugge {
+    float: right;
+    margin: 0 10px 10px 10px;
+    border-radius: 20%;
+}
+#mons {
+    float: left;
+    margin: 0 10px 10px 10px;
+    border-radius: 20%;
+}
+
+#liege {
+    float: right;
+    margin: 0 10px 10px 10px;
+    border-radius: 20%;
+}
+
+#leuven {
+    float: left;
+    margin: 0 10px 10px 10px;
+    border-radius: 20%;
+}
+
+#wavre {
+    float: right;
+    margin: 0 10px 10px 10px;
+    border-radius: 20%;
 }
 
 #belgiumm {
@@ -186,13 +212,30 @@ p {
 
 #beer2 {
     float: left;
-    margin: 0 0 10px 10px;
+    margin: 0 10px 10px 10px;
     border-radius: 20%;
 }
 
 #chocolate {
     float: right;
-    margin: 0 0 10px 10px;
+    margin: 0 10px 10px 10px;
+    border-radius: 20%;
+}
+
+#waffles {
+    float: left;
+    margin: 0 10px 10px 10px;
+    border-radius: 20%;
+}
+#fry {
+    float: right;
+    margin: 0 px 10px 10px;
+    border-radius: 20%;
+}
+
+#belflag {
+    float: left;
+    margin: 0 10px 10px 10px;
     border-radius: 20%;
 }
 
