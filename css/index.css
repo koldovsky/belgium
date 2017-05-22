@@ -1,4 +1,5 @@
 
+
 html {
     background-color: white;
 }
@@ -180,7 +181,7 @@ p {
     margin: 0 10px 10px 10px;
     border-radius: 20%;
 }
-#mons {
+#mons1 {
     float: left;
     margin: 0 10px 10px 10px;
     border-radius: 20%;
@@ -283,67 +284,78 @@ p {
     -ms-transform: translate(-50%, -50%);
 }
 
+
+
 #myCarousel img{
     width:  800px;
     height: 445px;
     margin: 0 auto;
+    border-radius: 20%;
 }
+
+
+
 #text1{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text2{
-    text-align: justify;
+   margin: 0 15px 0 15px;
 }
 
 #text3{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text4{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text5{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text6{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text7{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text8{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text9{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text10{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text11{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text12{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text13{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text14{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
 
 #text14{
-    text-align: justify;
+    margin: 0 15px 0 15px;
 }
+
+#text15{
+    margin: 0 15px 0 15px;
+}
+
